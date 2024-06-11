@@ -17,9 +17,7 @@ fullnameOverride: "vdt-frontend"
 env:
   values:
     - name: APP_API_URL
-      value: "https://api.home.dotv.apra"
-    - name: APP_API_VERSION
-      value: /api/v1
+      value: "https://api.home.dotv.apra/api/v1/users"
   configmaps: {}
   secrets: {}
 
